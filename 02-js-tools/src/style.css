@@ -333,3 +333,10 @@ header {
     height: 60px;
   }
 }
+
+.loading-pane {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 15px;
+}
