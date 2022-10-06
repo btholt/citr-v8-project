@@ -340,3 +340,8 @@ header {
   display: flex;
   padding: 15px;
 }
+
+form .pet {
+  float: unset;
+  margin: 0 auto;
+}
