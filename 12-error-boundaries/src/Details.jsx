@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
-import { RingLoader } from "react-spinners";
 import ErrorBoundary from "./ErrorBoundary";
 import fetchPet from "./fetchPet";
 import Carousel from "./Carousel";
@@ -12,7 +11,7 @@ const Details = () => {
   if (results.isLoading) {
     return (
       <div className="loading-pane">
-        <RingLoader size={250} />
+        <h2 className="loader">🌀</h2>
       </div>
     );
   }
