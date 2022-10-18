@@ -356,3 +356,11 @@ form .pet {
     transform: rotate(360deg);
   }
 }
+
+.mini.loading-pane {
+  height: 34px;
+}
+
+.mini .loader {
+  font-size: 34px;
+}

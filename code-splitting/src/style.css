@@ -357,3 +357,11 @@ form .pet {
   }
 }
 
+.mini.loading-pane {
+  height: 34px;
+}
+
+.mini .loader {
+  font-size: 34px;
+}
+
