@@ -27,7 +27,7 @@ const Details = () => {
   const pet = results?.data?.pets[0];
 
   if (!pet) {
-    throw new Error('pet not found');
+    throw new Error("pet not found");
   }
 
   return (

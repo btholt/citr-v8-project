@@ -6,6 +6,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier"
   ],
   "rules": {
@@ -36,9 +37,6 @@
       "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx"]
-      },
       "typescript": {
         "alwaysTryTypes": true
       }
