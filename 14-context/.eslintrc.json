@@ -9,7 +9,10 @@
   ],
   "rules": {
     "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "no-unused-vars": ["error", {
+      "varsIgnorePattern": "^_"
+    }]
   },
   "plugins": ["react", "import", "jsx-a11y"],
   "parserOptions": {
